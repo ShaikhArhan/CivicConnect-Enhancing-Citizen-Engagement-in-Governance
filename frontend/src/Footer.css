@@ -1,0 +1,35 @@
+.footer-area {
+    /* Add footer area styles here */
+  }
+  
+  .footer-widget {
+    /* Add footer widget styles here */
+  }
+  
+  .footer-widget-box {
+    /* Add styles for footer boxes here */
+  }
+  
+  .footer-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-list li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-contact {
+    /* Styles for contact information */
+  }
+  
+  .footer-social {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-social li {
+    margin-right: 10px;
+  }
+  

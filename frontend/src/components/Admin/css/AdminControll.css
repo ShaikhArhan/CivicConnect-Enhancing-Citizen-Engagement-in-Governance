@@ -1,0 +1,255 @@
+#container {
+  margin: 0px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-bar-container {
+  margin-left: -0.7%;
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 6px 9px black;
+  background-color: #ffffffae;
+  backdrop-filter: blur(5px);
+  position: fixed;
+  z-index: 2;
+  border-radius: 0% 0% 50px 50px;
+  padding-bottom: 2px;
+}
+
+#search-bar {
+  padding: 30px 0% 10px;
+  display: flex;
+  justify-content: center;
+  margin-right: 30%;
+}
+#registration-btn {
+  display: flex;
+  justify-content: right;
+  margin-right: 5%;
+}
+
+#registration-btn button {
+  padding: 0.5% 1%;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  border: 0px solid green;
+}
+
+#registration-btn button:hover {
+  box-shadow: 0px 0px 3px black;
+}
+
+#search-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 0px 0px 50px 50px;
+  background-color: white;
+}
+
+#search-options button {
+  font-size: larger;
+  padding: 10px 100% 10px 100%;
+  margin: 0% auto;
+}
+
+.options-admin button,
+.options-issues button {
+  display: flex;
+  justify-content: center;
+  border-radius: 20px 50px 20px 50px;
+  border: none;
+  background-color: white;
+}
+
+.options-admin button:hover,
+.options-issues button:hover {
+  background-color: black;
+  color: white;
+  transition: 1s;
+}
+
+#display-content {
+  margin-top: 165px;
+  overflow-y: auto;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  padding: 0.5% 0% 0.5% 4%;
+  box-shadow: 0px 0px 9px black;
+}
+
+.admin-id {
+  color: rgba(148, 148, 148, 0.822);
+  font-size: 15px;
+}
+
+.admin-info {
+  margin-left: 25%;
+}
+
+#display-content {
+  display: flex;
+  flex-direction: column;
+}
+
+#admin {
+  display: flex;
+  flex-direction: row;
+  margin: 1% 3.5% 1% 0%;
+
+  border-radius: 20px;
+  padding: 0.5% 0% 0.5% 4%;
+  box-shadow: 0px 0px 9px black;
+}
+
+#display-admins-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#display-issues-container {
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  margin: 1.5%;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px black;
+}
+
+#operation-container {
+  display: flex;
+  padding: 4%;
+  margin-right: 2%;
+}
+
+.operations {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.operations .update-button {
+  width: 100%;
+  background-color: yellowgreen;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: none;
+  padding: 2%;
+}
+
+.operations .delete-button {
+  width: 100%;
+  background-color: rgb(206, 0, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: none;
+  padding: 2%;
+}
+.operations .update-button:hover {
+  transition: 0.3s;
+  box-shadow: 0px 0px 5px black;
+}
+
+.operations .delete-button:hover {
+  transition: 0.3s;
+  box-shadow: 0px 0px 5px black;
+}
+
+.dropdown-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  margin-bottom: 20px;
+}
+
+.display-container-search-issue {
+  display: flex;
+  flex-direction: row;
+}
+.image-container {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.details-container {
+  padding: 20px;
+  position: relative;
+}
+.details {
+  max-width: 100%;
+  font-size: 16px;
+  color: #333;
+}
+
+.details p {
+  margin-bottom: 10px;
+}
+
+.details strong {
+  color: #007bff;
+}
+
+.update-ago {
+  font-size: 14px;
+  color: #777;
+}
+#status {
+  margin-top: 10px;
+}
+
+#statusDisplay span {
+  margin-right: 10px;
+}
+
+.AcceptProblem,
+.Accepted {
+  color: green;
+}
+
+.RejectProblem,
+.Rejected {
+  color: red;
+}
+
+.UnseenProblem,
+.Unseen {
+  color: rgb(220, 194, 0);
+}
+
+.ReportProblem,
+.Reported {
+  color: rgb(0, 196, 196);
+}
+#submit-role {
+  display: flex;
+  justify-content: flex-end;
+  margin: 1% 1% 1% 0%;
+  padding: 1% 3%;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(255, 35, 86);
+  color: #ffffff;
+}
+
+#submit-role:hover {
+  box-shadow: 0px 0px 8px black;
+}
+#varifying-role {
+  display: flex;
+  flex-direction: row;
+  margin: 1% 0%;
+  padding-left: 2%;
+  box-shadow: 0px 0px 3px black;
+  border-radius: 20px;
+}

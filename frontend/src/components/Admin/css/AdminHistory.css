@@ -1,0 +1,39 @@
+#hystory-container {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  margin: 1% 2%;
+}
+#timestamp {
+  color: rgb(108, 108, 108);
+  /* border: 1px solid rgb(0, 217, 255); */
+  width: fit-content;
+  margin: 0.4% auto 0.4% 2%;
+  font-size: xx-small;
+}
+.line {
+  border: 1px solid black;
+  /* margin: 0% 20% 0% 2%; */
+}
+#display-activity {
+  width: auto;
+  color: black;
+  display: flex;
+  flex-direction: row;
+}
+.activity-name {
+  display: flex;
+  margin: 0.5% auto;
+  font-weight: bold;
+}
+.arrow-symbol {
+  display: flex;
+  margin: 0.5% 1% 0.5% auto;
+  font-weight: bolder;
+
+}

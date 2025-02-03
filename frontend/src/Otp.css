@@ -1,0 +1,32 @@
+/* App.css - OTP Verification Component CSS */
+.card-body {
+    max-width: 400px;
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group-text {
+    background-color: rgb(200, 203, 255);
+  }
+  
+  .btn {
+    border: 2px solid rgb(82, 209, 255);
+    transition: border 0.5s ease-out;
+  }
+  
+  .btn-primary {
+    background-color: #0051ff;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: rgb(87, 72, 255);
+    border-color: rgb(87, 72, 255);
+  }
+  

@@ -1,0 +1,47 @@
+.container-fluid.make-f {
+    /* Add your styles here for the container-fluid with class 'make-f' */
+    padding-bottom: 5rem; /* Add padding bottom to create space for the footer */
+  }
+  
+  .border {
+    border: 1px solid rgba(50, 94, 255, 0.5); /* Add border */
+  }
+  
+  .pb-5 {
+    padding-bottom: 5rem; /* Add padding bottom */
+  }
+  
+  .login-card {
+    /* Add your styles here for the login card */
+    border-radius: 10px; /* Add border radius */
+  }
+  
+  .login-card .card-title {
+    /* Add your styles here for the card title */
+    color: rgb(87, 72, 255); /* Change text color */
+  }
+  
+  .login-card .form-group {
+    /* Add your styles here for the form group */
+    margin-bottom: 1.5rem; /* Add margin bottom */
+  }
+  
+  .login-card .myicon {
+    /* Add your styles here for the icon */
+    background-color: rgb(200, 203, 255);
+    border: 2px solid rgb(82, 209, 255);
+  }
+  
+  .login-card .btn-primary {
+    /* Add your styles here for the primary button */
+    background-color: #0051ffac; /* Change background color */
+    border: none; /* Remove border */
+  }
+  
+  .login-card .btn-primary:hover {
+    /* Add your styles here for the primary button on hover */
+    background-color: #003da5; /* Change background color */
+  }
+  
+  /* Add any additional styles as needed */
+  

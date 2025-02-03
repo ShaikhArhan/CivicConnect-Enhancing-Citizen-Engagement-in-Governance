@@ -1,0 +1,102 @@
+/* UpdateIssue.css */
+.update-issue-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 5%;
+}
+
+.update-issue-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.update-issue-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.update-issue-container label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.update-issue-container input[type="text"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.update-issue-container button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.update-issue-container button:hover {
+  background-color: #0056b3;
+}
+
+.update-issue-container img {
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+#expandingTextareas {
+  width: 70%;
+  padding: 2%;
+  font-size: large;
+  box-sizing: border-box;
+  resize: none;
+  overflow: hidden;
+  margin-left: auto;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0 5px rgb(0, 0, 0);
+}
+
+.update-issue-container textarea {
+  width: 100%; /* Set your fixed width here */
+  overflow: hidden;
+  resize: none; /* Prevent manual resizing */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.update-issue-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.update-issue-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.update-issue-table td {
+  padding: 10px;
+  vertical-align: top;
+}
+
+.update-issue-table label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.update-issue-table textarea {
+  width: 100%; /* Ensures the textarea takes the full width of the table cell */
+  overflow: hidden;
+  resize: none; /* Prevent manual resizing */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+
