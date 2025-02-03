@@ -1,15 +1,15 @@
 const jwt = require('jsonwebtoken');
 
-const secret = 'as8340453';
+// const secret = 'as8340453';
 
 const generateToken = (payload) => {
     try {
 
-        const encodedToken = jwt.sign(payload, secret, {
+        const encodedToken = jwt.sign(payload, {
             expiresIn: "30 days",
             algorithm: 'HS512'
         });
-        console.log("generateToken:",encodedToken)
+        console.log("generateToken:", encodedToken)
 
         return encodedToken;
 
@@ -19,7 +19,7 @@ const generateToken = (payload) => {
 };
 const validateToken = (token) => {
     try {
-        const decodedToken = jwt.verify(token, secret);
+        const decodedToken = jwt.verify(token);
         return decodedToken;
 
     } catch (err) {
