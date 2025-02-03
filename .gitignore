@@ -4,6 +4,7 @@ backend/node_modules/
 
 # Ignore environment files
 backend/.env
+BE/.env
 
 .DS_Store
 dist/
